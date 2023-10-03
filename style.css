@@ -1,0 +1,50 @@
+
+:root{
+    --alpha: 0.1;
+}
+h1{
+    /* Use custom font family from file */
+    font-family: kingthings;
+    /* Change font weight */
+    font-weight: 100;
+    /* Allign Text to center */
+    text-align: center;
+    /* Set background to a transparent black */
+    background-color: rgba(0, 0, 0, var(--alpha));
+    /* Set the width to 50% */
+    width: 50%;
+    /* Add a margin of 25% to the left */
+    margin-left: 25%;
+    /* Add a "bevel" to the background */
+    border-radius: 10px;
+    padding: 1%;
+}
+
+body{
+    /* Sets the background to a gradient of green to orange */
+    background-image: linear-gradient(green, orange, orange);
+    /* Sets to do not repeat background */
+    background-repeat: no-repeat;
+}
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 1%;
+    width: 75%;
+    margin-left: 12%;
+    background-color: rgba(0, 0, 0, var(--alpha));
+    border-radius: 10px;
+    font-size: larger;
+
+
+}
+
+footer{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* create a custom font using a file */
+@font-face {
+    font-family: kingthings;
+    src: url(Kingthings_Slipperylip.ttf);
+}
